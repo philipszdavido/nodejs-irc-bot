@@ -1,4 +1,5 @@
-# nodejs-irc-bot
+# Node.js IRC bot
+
 An irc-bot built using Node.js
 
 # Technologies
@@ -9,15 +10,15 @@ An irc-bot built using Node.js
 
 1. Clone this repo:
 
-    git clone https://github.com/philipszdavido/nodejs-irc-bot
+        git clone https://github.com/philipszdavido/nodejs-irc-bot
 
 1. Move into the `nodejs-irc-bot` from the terminal:
 
-    cd nodejs-irc-bot
+        cd nodejs-irc-bot
 
 1. Run the bot by issuing the following command:
 
-    npm run deploy
+        npm run deploy
 
 # Requirements
 
