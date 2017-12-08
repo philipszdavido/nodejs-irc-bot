@@ -1,0 +1,21 @@
+{
+    "name": "irc-bot",
+    "version": "1.0.0",
+    "description": "An irc-bot that responds and receives messages in an IRC channel",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "deploy": "node index.js"
+    },
+    "keywords": [
+        "irc",
+        "bot",
+        "nodejs",
+        "javascript"
+    ],
+    "author": "Chidume Nnamdi <kurtwanger40@gmail.com>",
+    "license": "ISC",
+    "dependencies": {
+        "irc": "^0.5.2"
+    }
+}
