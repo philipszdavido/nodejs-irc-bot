@@ -16,6 +16,10 @@ An irc-bot built using Node.js
 
         cd nodejs-irc-bot
 
+1. Install the dependencies:
+
+        npm install
+
 1. Run the bot by issuing the following command:
 
         npm run deploy
