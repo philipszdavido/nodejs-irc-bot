@@ -1,4 +1,4 @@
-var irc = require("irc");
+const irc = require("irc");
 
 var config = {
     channels: ["#sugar-gci-mentors", "#sugar"],
@@ -12,7 +12,6 @@ var bot = new irc.Client(config.server, config.botName, {
 
 // Listen for joins
 bot.addListener("join", function(channel, who) {
-    // Welcome them in!
     bot.say(channel, who + "...Welcome Back!");
 });
 
